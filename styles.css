@@ -1,0 +1,281 @@
+*{
+    margin  :0;
+    font-family: Arial;
+    border : border-box;
+}
+.nav-bar{
+    height : 60px;
+    background-color: #011111;
+    color: white;
+    display : flex;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width : 100px;
+    
+}
+.logo{
+    background-size: cover;
+    height: 60px;
+    background-image: url(./images/amazon_logo.png);
+}
+
+.border{
+    border : 2px solid transparent white;
+}
+.border:hover{
+    border : 2px solid white;
+}
+
+/** box address **/
+.address{
+    display: flex;
+    height : 50px;
+    width : 90px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.add-first{
+    margin-left: 10px;
+    color: #CCCCCC;
+    font-size: .80rem;
+}
+.second{
+    font-size: .95rem;
+}
+.add-icon{
+    display: flex;
+}
+/** search bar **/
+
+.search-bar{
+    width : 62%;
+    height : 45px;
+    display: flex;
+    align-items : center;
+    border-radius: 4px;
+    justify-content: space-around;
+}
+.all{
+    margin : 0px;
+    padding : 0px;
+    border : none;
+    width: 50px;
+    height: 45px;
+    background-color: #CCCCCC;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.search{
+    margin : 0px;
+    padding : 0px;
+    border : none;
+    width: 100%;
+    height: 45px;
+    font-size: 1.25rem;
+}
+
+.search-icon{
+    margin : 0px;
+    padding : 0px;
+    border : none;
+    background-color: rgb(253, 169, 138);
+    border-top-right-radius:4px;
+    border-bottom-right-radius:4px;
+    font-size: 1.25rem;
+    width : 50px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.search-bar:hover{
+    border :4px solid orange;
+}
+
+/** sign in **/
+.signin{
+    height : 50px;
+    width : 125px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.returns{
+    width : 75px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.first{
+    display: block;
+    font-size : 0.7rem;
+}
+.second{
+    display: block;
+    font-size : 0.85rem;
+}
+.signin select{
+    border: none;
+}
+.accounts{
+    background-color: black;
+    color: #FFFFFF;
+}
+.cart i{
+    font-size: 2rem;
+}
+.lang{
+    display: flex;
+    justify-content:flex-end;
+    height : 50px;
+    width: 75px;
+}
+.lang select{
+    background-color:#011111;
+    border : none;
+    color: #FFFFFF;
+}
+.menu{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #0F1111;
+    color : white;
+    height : 40px;
+}
+.menu a{
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+    font-size: 0.85rem;
+}
+.menu select{
+    background-color: #0F1111;
+    color : white;
+    font-size: 0.95rem;
+    border : none;
+}
+.menu-icon{
+    padding: 5px 10px 5px 10px;
+}
+.Special {
+    margin-left: auto; /* This will push the "Valentine Special" to the right */
+    margin-right: 50px; /* Adjust this value as needed for spacing */
+}
+
+.hero-section{
+    height : 600px;
+    background-image: url("./images/hero.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+.sales-1{
+   height: 380px; 
+   width : 22%px;
+   background-color: #FFFFFF;
+   display: flex;
+   flex-direction: column;
+}
+.sales-img{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height : 77%;
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.sales-1 a{
+    margin-left: 5%;
+    text-decoration: none;
+    font-size : .75rem
+}
+.sales-1 h2{
+    margin-left: 5%;
+    font-size: .85rem;
+    margin-top: 20px;
+}
+
+.sales{
+    border : 5px solid #ddd;
+    background-color: #ddd;
+    height : 400px;
+}
+.allsales{
+    background-color: #ddd;
+    display: flex;
+    justify-content: space-evenly;
+    border-top : 20px solid #ddd;
+}
+.books{
+    display :flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height : 300px;
+    background-color:#FFFFFF;
+    margin: 30px;
+    
+}
+.topsellers{
+    display :flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin : 10px;
+}
+.heading{
+    display: block;
+    padding-top: 10px;
+    margin-left : 50px;
+}
+
+.footer1{
+    background-color: #03315c;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+.footer2{
+    background-color: #232F3E;
+    height : 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color : #FFFFFF;
+}
+
+.footer2 li{
+    list-style: none;
+    font-size: .75rem ;
+}
+.footer2 h4{
+    font-size: .85rem;
+}
+.footer2 ul {
+    margin: 0;
+    padding: 0;
+}
+.about{
+    margin :25px;
+}
+.footer3{
+    margin-top : 1px;
+    background-color: #232F3E;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
